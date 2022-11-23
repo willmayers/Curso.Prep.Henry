@@ -1,0 +1,22 @@
+variable: se hace referencia con la palabra clave "var"
+ la usamos para decir que una palabra equis, tendrá equis valor que le
+  asignemos, y siempre que escribamos dicha palabra, la consola
+   nos arrojara el valor que le asignamos.
+
+   strings: un tipo de dato lineal, que siempre va entre comillas.
+
+   funcion (argumentos, "return") este es un comando
+    que nos retornará algo de dentro de la funcion y cortara el 
+    resto del codigo que viene despues del return
+
+    declaracion if: es una declaracion condicional. para decir que si
+    una condicion se cumple, entonces se ejecuta el codigo que viene
+     despues. usualmente se usa con el "else".
+
+     valores booleanos: son valores de verdadero o falso. 
+     haces una pequeña declaracion como "2 es mayor que 3" entonces
+     te arrojara un booleano "false" ya que es falso. de poner
+     "3 es mayor que 2" entonces te retornara un valor booleano "true"
+
+     
+
