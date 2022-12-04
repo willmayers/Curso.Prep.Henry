@@ -1,0 +1,16 @@
+For: esta es una palabra reservada que se usa para crear un bucle.
+en su estructura recibe tres parametros, se declara una variable, 
+se da una condición, y de ultimo se declara la velocidad de incremento.
+
+&&: un operador logico que significa "and" este se usa para cuando
+vas a crear una funcion if/else pero tienes dos parametros condicion.
+en la que ambas tienen que cumplirse para dar true, cualquier otro caso
+dará false. 
+
+||: operador "or" se usa en los mismos casos, cuando tienes dos condiciones
+pero en este caso si una condicion es true, ya valida a true. por ejemplo,
+se leeria algo asi: si esta condicion || o esta condicion
+                    de ser alguna verdadera, entonces es da true.
+
+!: el operador de negacion, se usa para negar un valor. por ejemplo,
+al escribir !2 estamos diciendo "no es dos". !true estariamos diciendo "no es true".
