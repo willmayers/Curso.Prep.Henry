@@ -94,7 +94,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if(Number.isInteger(numero)) {return true}
+  if(numero === Math.floor(numero)) {return true}
   else {return false}
 }
 
@@ -181,10 +181,11 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
- do {
-  
- } while (condition);
-  }
+  let i = 0;
+ do { numero = numero +5;
+      i = i +1;
+ } while (i < 8); {return numero}
+  } 
   
 
 
