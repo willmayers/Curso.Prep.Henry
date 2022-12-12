@@ -1,0 +1,4 @@
+ARRAYS: los arreglos son una colección de elementos que pueden 
+ser cualquier valor, incluso funciones u otro arreglo.
+estos se enumeran de izquierda a derecha iniciando desde el 0 en adelante
+los arreglos siempre van encerrados entre []
