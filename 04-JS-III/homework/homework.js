@@ -226,7 +226,7 @@ function breakStatement(numero) {
   let array2 = []
   let suma = numero
   for (let i = 0; i < 10; i++) {
-    if(i === suma){
+    if(i+1 === suma){
       break;
     } else {
         suma = suma + 2;
@@ -246,7 +246,7 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   let array2 = []
-  let suma = 0
+  let suma = numero
   for (let i = 0; i < 10; i++) {
     if(i === 5){continue;}
       else {
