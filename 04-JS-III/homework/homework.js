@@ -173,9 +173,9 @@ function todosIguales(arreglo) {
   //Escribe tu código aquí  
   for(i = 0; i < arreglo.length; i++){
     if(arreglo[i] !== arreglo[i + 1]){
-      return false
+      return false;
     }
-      return true
+    else {return true;}
   }
 } 
 
@@ -223,6 +223,18 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  let array2 = []
+  let suma = numero
+  for (let i = 0; i < 10; i++) {
+    if(i === suma){
+      break;
+    } else {
+        suma = suma + 2;
+      array2.push(suma);}
+
+}
+if(array2.length < 10){return "Se interrumpió la ejecución";}
+  else {return array2}  
 }
 
 
@@ -233,6 +245,15 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
+  let array2 = []
+  let suma = 0
+  for (let i = 0; i < 10; i++) {
+    if(i === 5){continue;}
+      else {
+    suma = suma + 2;
+    array2.push(suma);}
+   }
+    return array2
 }
 
 
