@@ -1,0 +1,13 @@
+OBJETOS: un objeto es una coleccion de datos guardados dentro de unas llaves.
+por lo general guarda diversas caracteristicas de una sola cosa.
+estos datos pueden ser variables, funciones, etc.
+
+PROPIEDADES: este es el nombre que reciben las variables almacenadas dentro de un objeto.
+
+MÉTODOS: es el nombre que tiene una función dentro de un objeto.
+
+BLUCLE FOR ...IN: es un tipo de bucle para los objetos ya que no itera
+en orden numerico sino que lo hace por cada keyValor presente en el objeto.
+
+NOTACION DE PUNTOS Y DE CORCHETES: ambas se usan para referirse a una propiedad o metodo dentro del objeto, la notacion de puntos es la mas directa y expresiva. solo se escribe OBJETO.Propiedad o OBJETO.Metodo
+en el caso de la notacion con corchetes debes escribir la propiedad a llamar entre comillas como si fuera una string, ejemplo OBJETO['Propiedad'].
