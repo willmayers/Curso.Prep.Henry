@@ -1,0 +1,6 @@
+Prototipos: son una plantilla. un modelo a seguir para crear otros objetos con esas mismas
+especificaciones. cuando creamos un objeto a partir de un prototipo le llamamos instancia.
+
+Constructors: al momento de crear una funcion constructora, los constructors son los parametros 
+que esta va a recibir. al momento de crear una instacia y hacemos que tenga el mismo metodo constructor
+le estamos diciendo que va a llevar los mismos parametros que dicha funcion constructora.
